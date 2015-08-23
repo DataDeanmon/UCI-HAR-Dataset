@@ -2,14 +2,14 @@
 library(dplyr)
 
 #Read test data to workspace
-Subject_Test <- read.table("subject_test.txt")
-x_Test <- read.table("X_test.txt")
-y_Test <- read.table("y_test.txt")
+Subject_Test <- read.table("./test/subject_test.txt")
+x_Test <- read.table("./test/X_test.txt")
+y_Test <- read.table("./test/y_test.txt")
 
 #Read training data to workspace
-Subject_Train <- read.table("subject_train.txt")
-x_Train <- read.table("X_train.txt")
-y_Train <- read.table("y_train.txt")
+Subject_Train <- read.table("./train/subject_train.txt")
+x_Train <- read.table("./train/X_train.txt")
+y_Train <- read.table("./train/y_train.txt")
 
 #Read activity labels and features to workspace
 Activity_labels <- read.table("activity_labels.txt")
@@ -40,7 +40,7 @@ measures <- c(measures, 563, 564) #adds subject and activitylabel columns to mea
 x_Extract <- x_Total[, measures] #creates x_Extract, selecting only "mean" and "std" variables and subject and ActivityLabel
 x_Extract <- rename(x_Extract, ActivityLabel = V2) #rename V2 to "ActivityLabel
 
-# make feature names more human readble
+# make feature names more readble
 names(x_Extract) <- gsub("Acc", "-Acceleration", names(x_Extract))
 names(x_Extract) <- gsub("Mag", "-Magnitude", names(x_Extract))
 

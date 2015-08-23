@@ -40,6 +40,7 @@ The following columns relate to measurements derived from the UCI Human Activity
 
 Please refer the codebook with the original dataset for further detail on each of these different measurements [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones].  
 
+Time domain measurements:
  [3] "tBody-Acceleration-mean()-X"                
  [4] "tBody-Acceleration-mean()-Y"                
  [5] "tBody-Acceleration-mean()-Z"                
@@ -79,7 +80,9 @@ Please refer the codebook with the original dataset for further detail on each o
 [39] "tBodyGyro-Magnitude-mean()"                 
 [40] "tBodyGyro-Magnitude-std()"                  
 [41] "tBodyGyroJerk-Magnitude-mean()"             
-[42] "tBodyGyroJerk-Magnitude-std()"              
+[42] "tBodyGyroJerk-Magnitude-std()"      
+
+Frequency domain measurements:        
 [43] "fBody-Acceleration-mean()-X"                
 [44] "fBody-Acceleration-mean()-Y"                
 [45] "fBody-Acceleration-mean()-Z"                

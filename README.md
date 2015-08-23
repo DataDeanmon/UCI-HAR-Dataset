@@ -19,7 +19,7 @@ The course requirements are to create a R script that does the following:
 
 ## R Code
 
-The run_analysis.R file within this repo contains the R code to produce the tidy data set called x_Summary.txt.  The R code assumes that the source data has been downloaded from the [UCI Machine Learning Repository](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and saved to the current working directory.  
+The run_analysis.R file within this repo contains the R code to produce the tidy data set called x_Summary.txt.  The R code assumes that the source data has been downloaded from the [UCI Machine Learning Repository](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and saved to the current working directory and maintains the subdirectory from the UCI download.  
 
 Source the R code with the following command:
 
