@@ -33,7 +33,7 @@ The final dataset contains 68 variables with 180 observations. Each observation 
 
 The following columns are provided:
 
- [1] "ActivityLabel" - An activity name with the following possible values: laying, sitting, standing, walking, walking_downstairs, walking_upstairs.
+ [1] "ActivityLabel" - An activity name with the following possible values: laying, sitting, standing, walking, walking_downstairs, walking_upstairs.  
  [2] "Subject" - A numeric identifier (1-30) of the subject who carried out the experiment.
 
 The following columns relate to measurements derived from the UCI Human Activity Recognition Using Smartphones Data Set.  Please note that each measurements relates to the average for that measurement for each subject/activity pair within the study.  
